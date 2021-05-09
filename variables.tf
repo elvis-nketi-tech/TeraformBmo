@@ -1,4 +1,4 @@
-variable "aws_regiob" {
+variable "aws_region" {
     default = "us-west-2"
     description = "eks cluster for our client would be provisioned above"
 

@@ -6,7 +6,7 @@
 #  * Route Table
 #
 
-resource "aws_vpc" "demo" {
+resource "aws_vpc" "bmovpc" {
   cidr_block = "10.0.0.0/16"
 
   tags = map(
